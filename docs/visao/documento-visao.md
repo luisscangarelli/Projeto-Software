@@ -157,7 +157,6 @@ O sistema deve monitorar o estoque de ingredientes e ajustar automaticamente as 
 [Colar aqui o diagrama de caso de uso do projeto]
 
 ## 9. Lista de Anexos
-[Listar, se houver, os anexos utilizados para gerar o documento, exemplo ata de reunião, brainstorming, etc.]
 
 ---
 
