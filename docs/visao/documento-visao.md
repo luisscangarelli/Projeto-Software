@@ -79,14 +79,14 @@ Esta seção apresenta um perfil dos stakeholders e usuários envolvidos no proj
 
 | Tipo | Descrição | Representantes | Observações |
 |------|-----------|----------------|-------------|
-| GERENTE | Dono do Restaurante | José da Silva | Eventualmente solicita os relatórios do sistema |
+| GERENTE | Chefe do Restaurante | José da Silva | Eventualmente solicita os relatórios do sistema |
 
 ### 3.2 Stakeholders Usuários
 
 | Tipo | Descrição | Representantes | Observações |
 |------|-----------|----------------|-------------|
-| CLIENTE | REALIZA OS PEDIDOS | | |
-| ADMINISTRATIVO | RECEBE E DIRECIONA PEDIDOS | LUIS FERNANDO | |
+| CLIENTE | SOLICITA PEDIDOS | | |
+| ATENDENTE | RECEBE E DIRECIONA PEDIDOS | LUIS FERNANDO | |
 
 ### 3.3 Ambiente dos Usuários
 
