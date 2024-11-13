@@ -108,3 +108,67 @@ Neste ambiente os administradores irão controlar a disponibilidade dos produtos
 **Concorrentes Diretos: Sistemas de Gestão de Restaurantes**
 - **Exemplos**: TOTVS Chef, MarketMan
 - **Descrição**: Esses sistemas são amplamente utilizados por restaurantes para gerenciar pedidos, pagamentos e, em alguns casos, o estoque.
+## 4. Visão Geral do Produto
+
+### 4.1 Perspectiva do Produto
+O sistema para o Restaurante Mikado Gastronomia será uma solução integrada que suporta as principais atividades operacionais e de gestão do restaurante. Através do sistema, a equipe de atendimento poderá registrar e gerenciar pedidos de clientes, que são automaticamente repassados para a cozinha. O sistema permitirá o controle detalhado de estoque, ajustando automaticamente as quantidades conforme os ingredientes são utilizados nos pedidos.
+
+O processo começa com o atendimento ao cliente, onde o garçom utiliza o sistema para registrar os pedidos diretamente em um dispositivo móvel. Esses pedidos são instantaneamente enviados para a cozinha, onde são exibidos em uma tela de gestão de pedidos, facilitando a comunicação e reduzindo erros.
+
+Além disso, o sistema controla o estoque de ingredientes, alertando a equipe sobre a necessidade de reposição e evitando faltas de itens essenciais. O sistema também permite que o gerente configure promoções e ofertas especiais, ajustando automaticamente os preços dos pratos conforme as promoções são ativadas.
+
+Os administradores do restaurante podem utilizar o sistema para gerar relatórios sobre vendas, consumo de ingredientes e desempenho operacional, auxiliando na tomada de decisões estratégicas. O sistema também oferece a possibilidade de integrar-se a sistemas de pagamento e delivery, expandindo as capacidades do restaurante de acordo com as necessidades de crescimento e expansão.
+
+### 4.2 Premissas e Dependências
+
+#### 4.2.1 Gerenciamento de Pedidos em Curso
+Presume-se que o sistema conseguirá identificar e gerenciar pedidos em curso de um mesmo usuário, evitando a criação de novos pedidos enquanto o pedido anterior estiver em processamento.
+
+#### 4.2.2 Sistema de Geolocalização
+A verificação da área de cobertura para garantir que os pedidos sejam aceitos apenas dentro da área de cobertura definida.
+
+## 5. Características (Features) do Produto
+
+### 5.1 Cadastro do Cliente
+Para que o cliente possa se registrar ele deverá informar seus dados: nome, CPF, CEP, celular e e-mail. Não será possível a criação de mais de uma conta por CPF, celular ou e-mail.
+
+### 5.2 Registro do Pedido
+O sistema irá registrar o pedido do cliente após o pagamento, já com todas as preferências do usuário acerca de tal produto.
+
+## 6. Requisitos Funcionais
+
+### 6.1 Registro e Gerenciamento de Pedidos
+O sistema deve permitir que a equipe de atendimento registre pedidos de clientes utilizando dispositivos móveis. Cada pedido deve ser registrado com detalhes como itens, quantidades e informações do cliente.
+
+### 6.2 Controle de Estoque Automatizado
+O sistema deve monitorar o estoque de ingredientes e ajustar automaticamente as quantidades conforme os itens são utilizados nos pedidos. Deve enviar alertas quando os níveis de estoque atingirem o limite mínimo, permitindo a reposição oportuna.
+
+## 7. Outros Requisitos
+
+### 7.1 Requisitos Não Funcionais
+1. O sistema deverá disponibilizar um suporte para lidar com problemas e solicitações do cliente.
+2. O sistema deve ser um site rápido, didático e eficiente.
+
+### 7.2 Outros
+1. Caso o cliente se arrependa ou desista de um pedido terá um botão para o cancelamento do pedido e será feito o reembolso caso esteja dentro das normas fornecidas pelo estabelecimento.
+2. Terá uma aba com a opção de acessibilidade caso o cliente necessite.
+
+## 8. Diagrama de Caso de Uso
+[Colar aqui o diagrama de caso de uso do projeto]
+
+## 9. Lista de Anexos
+[Listar, se houver, os anexos utilizados para gerar o documento, exemplo ata de reunião, brainstorming, etc.]
+
+---
+
+**Data do aceite**: ____________/ __________________ / ________________
+
+
+_______________________________
+**Patrocinador do Projeto**
+Nome do Cliente
+
+
+_______________________________
+**Gerente de Projetos**
+Nome do Gerente
