@@ -15,7 +15,7 @@
 | **Regras de negócio** | - CPF único por cadastro<br>- Email único por cadastro<br>- Celular único por cadastro |
 | **Fluxo Exceção** | - Erro de conexão<br>- Dados inválidos |
 | **Requisitos não funcionais** | - Interface intuitiva<br>- Tempo de resposta rápido |
-| **Autor** | [Seu Nome] |
+| **Autor** | [Luis Felipe] |
 | **Data de elaboração** | 13/11/2024 |
 | **Versão** | 1.0 |
 
@@ -34,7 +34,7 @@
 | **Regras de negócio** | - Pedido deve ter pelo menos 1 item<br>- Itens devem estar disponíveis no estoque |
 | **Fluxo Exceção** | - Item indisponível<br>- Erro de sistema |
 | **Requisitos não funcionais** | - Tempo de resposta < 2s<br>- Interface mobile-friendly |
-| **Autor** | [Seu Nome] |
+| **Autor** | [Luis Felipe] |
 | **Data de elaboração** | 13/11/2024 |
 | **Versão** | 1.0 |
 
@@ -53,6 +53,6 @@
 | **Regras de negócio** | - Alertas em 20% do estoque<br>- Atualização em tempo real |
 | **Fluxo Exceção** | - Erro de cálculo<br>- Falha de sistema |
 | **Requisitos não funcionais** | - Precisão nos cálculos<br>- Backup automático |
-| **Autor** | [Seu Nome] |
+| **Autor** | [Luis Felipe] |
 | **Data de elaboração** | 13/11/2024 |
 | **Versão** | 1.0 |
