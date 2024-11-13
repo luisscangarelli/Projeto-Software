@@ -154,7 +154,7 @@ O sistema deve monitorar o estoque de ingredientes e ajustar automaticamente as 
 2. Terá uma aba com a opção de acessibilidade caso o cliente necessite.
 
 ## 8. Diagrama de Caso de Uso
-[Colar aqui o diagrama de caso de uso do projeto]
+![Diagrama de Caso de Uso](docs/diagramas/diagrama-caso-uso.png)
 
 ## 9. Lista de Anexos
 
