@@ -70,3 +70,41 @@ Este documento tem por finalidade coletar, analisar e definir as principais nece
 | QUE | que buscam eficiência e operações mais ágeis e econômicas |
 | DIFERENTEMENTE DE | Soluções manuais e processos operacionais lentos e caros |
 | NOSSO PRODUTO | Oferece controle centralizado e comunicação eficiente entre equipe e cozinha e cliente com relatórios |
+
+## 3. Descrição dos Stakeholders e Usuários
+
+Esta seção apresenta um perfil dos stakeholders e usuários envolvidos no projeto e os principais problemas que eles entendem que devam ser atacados pela solução proposta.
+
+### 3.1 Stakeholders não Usuários
+
+| Tipo | Descrição | Representantes | Observações |
+|------|-----------|----------------|-------------|
+| GERENTE | Dono do Restaurante | José da Silva | Eventualmente solicita os relatórios do sistema |
+
+### 3.2 Stakeholders Usuários
+
+| Tipo | Descrição | Representantes | Observações |
+|------|-----------|----------------|-------------|
+| CLIENTE | REALIZA OS PEDIDOS | | |
+| ADMINISTRATIVO | RECEBE E DIRECIONA PEDIDOS | LUIS FERNANDO | |
+
+### 3.3 Ambiente dos Usuários
+
+Esta seção apresenta os ambientes possíveis do sistema, como administração, operação, exemplo, ambiente de administradores do Sistema e ambiente de usuários.
+
+#### Cliente:
+Neste ambiente o cliente poderá analisar o cardápio, vendo e analisando os produtos disponíveis, podendo acessar também seu histórico de compras
+
+#### Administrativo:
+Neste ambiente os administradores irão controlar a disponibilidade dos produtos, terão acesso ao histórico de dados para a tomada de decisão.
+
+### 3.4 Resumo das Principais Necessidades dos Stakeholders
+
+| Necessidade | Prioridade | Impacto | Solução Atual | Soluções Propostas |
+|-------------|------------|---------|---------------|-------------------|
+| | | | | |
+
+### 3.5 Alternativas
+**Concorrentes Diretos: Sistemas de Gestão de Restaurantes**
+- **Exemplos**: TOTVS Chef, MarketMan
+- **Descrição**: Esses sistemas são amplamente utilizados por restaurantes para gerenciar pedidos, pagamentos e, em alguns casos, o estoque.
