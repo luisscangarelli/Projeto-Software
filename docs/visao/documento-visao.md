@@ -11,6 +11,7 @@
 | Data | Versão | Descrição | Autor | Aprovado por |
 |------|--------|-----------|-------|--------------|
 | 28/08/2024 | 1.0 | Inicialização do Projeto | Luis Felipe | Thadeu Martins |
+| 13/11/2024 | 1.1 | Atualização do Projeto | Luis Felipe | Thadeu Martins |
 
 ## Sumário
 1. [Introdução](#1-introducao)
@@ -44,7 +45,8 @@
 Este documento tem por finalidade coletar, analisar e definir as principais necessidades do cliente e as principais características do Site. O documento procura demonstrar as características requisitadas pelos interessados e o motivo de sua presença neste.
 
 ### 1.1 Referências
-[descrever os documentos usados como referência para a Elicitação de requisitos, incluir datas e número de referência dos anexos]
+Manual Operacional do Restaurante Mikado Gastronomia – Data: 15/09/2024, Anexo 1
+Guia de Boas Práticas de Atendimento ao Cliente – Data: 30/09/2024, Anexo 2
 
 ### 1.2 Técnicas de Elicitação Aplicadas
 - Entrevistas realizadas com stakeholders 
@@ -102,7 +104,12 @@ Neste ambiente os administradores irão controlar a disponibilidade dos produtos
 
 | Necessidade | Prioridade | Impacto | Solução Atual | Soluções Propostas |
 |-------------|------------|---------|---------------|-------------------|
-| | | | | |
+| Facilitar a tomada de decisões com base em relatórios operacionais | Alta | Permite identificar tendências e melhorar o desempenho do restaurante | Relatórios manuais esporádicos | Relatórios automáticos de vendas, consumo e desempenho operacional disponíveis em tempo real |
+|Assegurar a conformidade com a LGPD para dados dos clientes | Alta | Garante a proteção dos dados dos clientes e previne problemas legais e financeiros para o restaurante | Armazenamento básico de dados sem medidas de segurança específicas | Implementação de políticas de consentimento para coleta de dados, criptografia das informações dos clientes, controle de acesso e opções para exclusão de dados conforme solicitado |
+| Controlar e atualizar o estoque de ingredientes automaticamente | Média | Reduz perdas e faltas de ingredientes, impactando a operação e controle de custos | Controle manual em planilhas | Controle de estoque automático com alertas de baixa e atualizações em tempo real |
+| Melhorar a comunicação com o cliente sobre o status do pedido | Média | Reduz a incerteza e melhora a experiência do cliente, diminuindo reclamações e aumentando a fidelidade | Status informado somente quando o cliente solicita | Notificações automáticas de status enviadas ao cliente pelo sistema ou aplicativo, informando cada etapa do pedido (preparação, pronto, em entrega) |
+| Possibilitar a personalização da interface do sistema | Baixa | Proporciona uma experiência visual mais alinhada com a identidade do restaurante, mas sem impacto direto nas operações | Interface padrão e fixa | Opções de personalização de temas e cores no sistema para combinar com a marca do restaurante |
+|  |  |  |  |  |
 
 ### 3.5 Alternativas
 **Concorrentes Diretos: Sistemas de Gestão de Restaurantes**
@@ -120,6 +127,12 @@ Além disso, o sistema controla o estoque de ingredientes, alertando a equipe so
 Os administradores do restaurante podem utilizar o sistema para gerar relatórios sobre vendas, consumo de ingredientes e desempenho operacional, auxiliando na tomada de decisões estratégicas. O sistema também oferece a possibilidade de integrar-se a sistemas de pagamento e delivery, expandindo as capacidades do restaurante de acordo com as necessidades de crescimento e expansão.
 
 ### 4.2 Premissas e Dependências
+
+Integração com Sistema de Pagamento: O sistema deve estar integrado a pelo menos uma plataforma de pagamento (ex.: PayPal, Stripe) para permitir a realização de pagamentos online e gerenciar pedidos pagos automaticamente.
+
+Conformidade com LGPD: O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) para garantir a privacidade dos dados dos clientes.
+
+Acessibilidade: Presume-se que o sistema seja acessível para usuários com deficiência, atendendo às normas de acessibilidade da Web (WCAG 2.1).
 
 #### 4.2.1 Gerenciamento de Pedidos em Curso
 Presume-se que o sistema conseguirá identificar e gerenciar pedidos em curso de um mesmo usuário, evitando a criação de novos pedidos enquanto o pedido anterior estiver em processamento.
@@ -158,18 +171,18 @@ O sistema deve monitorar o estoque de ingredientes e ajustar automaticamente as 
 
 ![Diagrama de Caso de Uso](./diagramas/diagrama-caso-uso.png)
 
-## 9. Lista de Anexos
-
----
-
-**Data do aceite**: ____________/ __________________ / ________________
 
 
-_______________________________
+**Data do aceite**: 13/ Novembro / 2024
+
+
+Anderson Nascimento
+
 **Patrocinador do Projeto**
-Nome do Cliente
 
 
-_______________________________
+
+Luis Felipe
+
 **Gerente de Projetos**
-Nome do Gerente
+
